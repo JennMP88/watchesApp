@@ -10,10 +10,16 @@
   background-color:white;
 }
 
-.span.navbar-toggler-icon{
-  color:black;
+a.nav-link{
+  color:grey;
+  font-size:24px;
 }
 
-/* .button{
-  color:white;
-} */
+.btn{
+  background-color:#DDD74C ;
+  color:#4E773A ;
+}
+
+/* 4E773A
+DDD74C */
+
