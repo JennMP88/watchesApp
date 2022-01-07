@@ -1,17 +1,18 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/navbar.css";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            Kairos
           </a>
           <button
-            className="navbar-toggler"
-            type="button"
+            className="navbar-toggler "
+            type="button "
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"

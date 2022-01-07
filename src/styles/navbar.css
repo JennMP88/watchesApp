@@ -1,0 +1,19 @@
+.navbar.navbar-expand-lg{
+  background-color:#0E0909;
+}
+.navbar-brand{
+  color:#AFA4A4;
+  font-size:32px;
+}
+
+.navbar-toggler{
+  background-color:white;
+}
+
+.span.navbar-toggler-icon{
+  color:black;
+}
+
+/* .button{
+  color:white;
+} */
