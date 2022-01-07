@@ -15,6 +15,10 @@ a.nav-link{
   font-size:24px;
 }
 
+.nav-item{
+  padding: 0px 1em;
+}
+
 .btn{
   background-color:#DDD74C ;
   color:#4E773A ;
