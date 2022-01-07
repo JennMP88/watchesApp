@@ -1,16 +1,19 @@
 import React, {Component} from 'react';
+import Navbar from "./components/navbar.js";
+import {Route,  Switch} from "react-router-dom";
 
 class App extends Component{
+
   state={
 
   }
+
   render(){
     return (
       <>
     <div className="App">
-      <header className="App-header">
-      <h1>Hello world</h1>
-      
+      <header className="App-header">  
+      <Navbar/>
       </header>
     </div>
       </>
@@ -18,15 +21,3 @@ class App extends Component{
   }
 }
 export default App;
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//       <h1>Hello world</h1>
-      
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
