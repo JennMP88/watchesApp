@@ -1,5 +1,4 @@
 .navbar.navbar-expand-lg{
-  /* background-color:#0E0909; */
   background-color:#0b0707;
 }
 .navbar-brand{
@@ -14,13 +13,13 @@
 
 a.nav-link{
   color:#AFA4A4;
-  font-size:24px;
+  font-size:22px;
   letter-spacing:.20em;
 }
 
 a.nav-link:hover{
   color:#AFA4A4;
-  border-bottom:2px solid #DDD74C;
+  /* border-bottom:2px solid #DDD74C; */
 }
 
 .navbar-brand:hover{
@@ -32,9 +31,15 @@ a.nav-link:hover{
 }
 
 .btn{
-  background-color:#DDD74C ;
-  color:#4E773A ;
+  /* background-color:#DDD74C ; */
+  background-color:#4E773A ;
+  color:black;
 }
+
+/* .btn:hover{
+  color:#AFA4A4 ;
+} */
+
 
 /* 4E773A
 DDD74C */
