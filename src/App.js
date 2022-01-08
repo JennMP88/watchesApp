@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import Navbar from "./components/navbar.js";
-import MainPage from "./components/mainPage.js";
+import Navbar from "./components/navbar";
+import MainPage from "./components/mainpage";
 import "./styles/app.css";
-// import {Route,  Switch} from "react-router-dom";
-// import {
-//   BrowserRouter,
-//   Routes, // instead of "Switch"
-//   Route,
-// } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
 
 
 class App extends Component{
@@ -19,16 +18,13 @@ class App extends Component{
   render(){
     return (
       <>
-    {/* <div className="App"> */}
-      {/* <header className="App-header">   */}
-      {/* <browserRouter>   */}
-      {/* <Route path="/navbar" exact strict component={Navbar}/>
-      <Route path="/mainPage" exact strict component={MainPage}/> */}
-       <Navbar/>
-      {/*<MainPage/> */}
-      {/* </browserRouter> */}
-      {/* </header> */}
-    {/* </div> */}
+  < BrowserRouter>
+    <Routes>
+      <Route path="/navbar" element={<Navbar />} />
+      <Route path="/mainpage" element={<MainPage />} />
+    </Routes>
+  </ BrowserRouter>
+              
       </>
     )
   }

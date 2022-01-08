@@ -16,10 +16,7 @@ class MainPage extends Component{
         </div>
       </div>
       </>
-       
-     
-
-     
+        
     )
   }
 }
