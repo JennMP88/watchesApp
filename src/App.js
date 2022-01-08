@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import HeaderNavbar from ".components/headerNav";
 import Navbar from "./components/navbar";
 import MainPage from "./components/mainpage";
 import Overview from './components/overview';
@@ -22,7 +21,6 @@ class App extends Component{
   render(){
     return (
       <>
-        {/* <HeaderNavbar/> */}
         <Navbar/>
         <MainPage/>
         {/* <Overview/> */}
