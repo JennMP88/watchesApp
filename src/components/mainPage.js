@@ -9,7 +9,7 @@ class MainPage extends Component {
       <>
 
         {/* <div className="container-fluid"> */}
-        <div class="row gx=-0">
+        <div class="row">
             <img class="img-fluid" src={watchImage} alt="watch-image" />
         </div>
         {/* </div> */}

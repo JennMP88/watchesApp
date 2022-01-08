@@ -3,10 +3,18 @@ h1{
 }
 
 .aboutourwatches{
-  background-color: #DDD74C;
   box-shadow: 20px -16px rgba(0,0,0,.82);
+  border: 1px solid grey;
+  height: 10%;
+  /* margin-left:10%; */
   /* margin-right:2px; */
 }
+
+/* .image-about{
+  height:50%;
+  margin-left:20%;
+} */
+
 
 /* wip---------- */
 /* .image-about{
