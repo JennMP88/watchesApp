@@ -1,23 +1,20 @@
-import React, {Component} from "react";
-import "bootstrap/dist/css/bootstrap.min.css";;
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+const watchImage=require("../assets/carlosEstevexunsplashwatch.jpeg")
 
-class MainPage extends Component{
-  state={
-
-  }
-  render(){
-    return(
+class MainPage extends Component {
+  state = {};
+  render() {
+    return (
       <>
-   <div className="container-fluid">
-        <div className="row">
-          <div className="col">
-            <p>Content content content content</p>
-          </div>
+
+        {/* <div className="container-fluid"> */}
+        <div class="row gx=-0">
+            <img class="img-fluid" src={watchImage} alt="watch-image" />
         </div>
-      </div>
+        {/* </div> */}
       </>
-        
-    )
+    );
   }
 }
 export default MainPage;

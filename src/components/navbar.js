@@ -5,7 +5,7 @@ import "../styles/navbar.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg pe-3 ps-3">
+      <nav className="navbar navbar-expand-lg pe-3 ps-3">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Kairos
@@ -86,8 +86,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-
     </>
   );
 };
