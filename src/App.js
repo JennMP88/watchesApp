@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from "./components/navbar";
 import MainPage from "./components/mainpage";
+import Benefits from "./components/benefits";
 import Overview from './components/overview';
 import About from "./components/about";
 import Watches from "./components/watches";
@@ -25,6 +26,7 @@ class App extends Component{
       <>
         <Navbar/>
         <MainPage/>
+        <Benefits/>
         {/* <Overview/> */}
         <About/>
         {/* <Watches/> */}
