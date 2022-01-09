@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/mainpage.css"
 const watchImage=require("../assets/carlosEstevexunsplashwatch.jpeg")
 
 class MainPage extends Component {
@@ -8,13 +9,11 @@ class MainPage extends Component {
     return (
       <>
 
-        {/* <div className="container-fluid"> */}
-        <div class="row">
-           
-            <img class="img-fluid" src={watchImage} alt="watch-image" />
-        
+        <div class="row ">   
+            <img class="img-fluid watchSize" src={watchImage} alt="watch-image" />
         </div>
-        {/* </div> */}
+      
+    
       </>
     );
   }

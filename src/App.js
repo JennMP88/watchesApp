@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import MainPage from "./components/mainpage";
 import Overview from './components/overview';
 import About from "./components/about";
+import Watches from "./components/watches";
 import "./styles/app.css";
 
 // import {
@@ -25,6 +26,8 @@ class App extends Component{
         <MainPage/>
         {/* <Overview/> */}
         <About/>
+        <Watches/>
+        
   {/* < BrowserRouter>
 
     <Routes>

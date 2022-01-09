@@ -5,7 +5,7 @@ const aboutImage=require("../assets/moontashir-mandal-EXF8ntB83lM-unsplash.jpg")
 const About=()=>{
   return (
     <>
-      <div class="container float-start">
+      <div class="container  ">
         <div class="row mt-5">
         <div class="col col-6 d-flex justify-content-center ">
           <img class="img-fluid image-about  h-50 "  src={aboutImage} alt="about-image"/>
@@ -18,6 +18,8 @@ const About=()=>{
              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
              Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
           </div>
+
+          
  
         </div>
       </div>
