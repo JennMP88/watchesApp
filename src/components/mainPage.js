@@ -15,14 +15,13 @@ class MainPage extends Component {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
   </div>
-  <div className="carousel-inner h-75 ">
+  <div className="carousel-inner h-75 watchSize">
 
     <div className="carousel-item active h-75">
       <img src={watchImage} className="d-block w-100 img-fluid watchImage" alt="..."/>
-      <div className="carousel-caption d-none d-md-block ">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-        <button type="button" class="btn btn-light mt-4">View Styles</button>
+      <div className="carousel-caption d-none d-md-block subcaps">
+        <h5>Kairos</h5>
+        <p>Feel the first class experience</p>
       </div>
     </div>
 
@@ -30,11 +29,10 @@ class MainPage extends Component {
       <img src={watchImage2} className="d-block w-100 img-fluid watchImage" alt="..."/>
       <div className="carousel-caption d-none d-md-block mt-4">
         
-      <div>
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      {/* <div class="morestyles m-4">
+        <h5>View more styles</h5>
       </div>
-      <button type="button" class="btn btn-light p-2 mt-3">View Styles</button>
+      <button type="button" class="btn btn-light p-2 mt-3">Click here</button> */}
       </div>
     </div>
 

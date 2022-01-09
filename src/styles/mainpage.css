@@ -1,9 +1,23 @@
-/* .watchSize{    
- opacity:.9;
-} */
+.watchSize{    
+ opacity: 0.9;
+}
 
 
 h5{
-  color:#DDD74C;
-  font-size:4rem; 
+
+  font-weight: bolder;
+  font-size:3rem;
+}
+.subcaps>p{
+  font-size:2rem;
+}
+
+/* .morestyles{color:red;
+font-weight:bolder;} */
+
+.subcaps{
+  background-color: rgba(255,255,255,.7);
+  color:red;
+  text-transform: uppercase;
+  letter-spacing: .2em;
 }

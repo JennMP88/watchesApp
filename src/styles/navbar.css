@@ -2,7 +2,8 @@
   background-color:#0b0707;
 }
 .navbar-brand{
-  color:#DDD74C;
+  /* color:#DDD74C; */
+  color:white;
   font-size:32px;
   letter-spacing:.20em;
 }
@@ -18,15 +19,20 @@ a.nav-link:hover{
 }
 
 a.nav-link{
-  color:#AFA4A4;
+  /* color:#AFA4A4; */
+  color:black;
   /* color:blue; */
   font-size:22px;
   letter-spacing:.20em;
 }
 
+.subNav{
+  background-color:rgba(65, 92, 51, 0.6);
+}
 
 .navbar-brand:hover{
-  color:#DDD74C;
+  /* color:#DDD74C; */
+  color:white;
 }
 
 .nav-item{
