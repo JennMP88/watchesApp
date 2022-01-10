@@ -3,8 +3,6 @@
  height:60vh;
 }
 
-
-
 h5{
 
   font-weight: bolder;
@@ -14,15 +12,12 @@ h5{
   font-size:2rem;
 }
 
-/* .morestyles{color:red;
-font-weight:bolder;} */
-
 .subcaps{
   background-color: rgba(255,255,255,.7);
   color:red;
   text-transform: uppercase;
   letter-spacing: .2em;
-
   position:absolute;
-  top:250px;
+  top:220px;
+  height:20vh;
 }
