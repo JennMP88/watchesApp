@@ -8,7 +8,7 @@ class Benefits extends Component {
  }
   render(){
     return (<> 
-    <div class="container">
+    <div class="container mt-5">
   <div class="row align-items-start ">
     <div class="col">
     <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100" fill="currentColor" class="bi bi-watch" viewBox="0 0 16 16">

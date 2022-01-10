@@ -9,7 +9,7 @@ class ReviewsSection extends Component {
  }
   render(){
     return (<>     
-    <div class="container">
+    <div class="container mt-5">
     <div class="row align-items-start">
    
         {
