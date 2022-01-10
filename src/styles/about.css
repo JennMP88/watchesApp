@@ -5,19 +5,10 @@ h1{
 .aboutourwatches{
   box-shadow: 20px -16px rgba(0,0,0,.82);
   border: 1px solid grey;
-  height: 10%;
-  /* margin-left:10%; */
-  /* margin-right:2px; */
+  /* height: 10%; */
 }
 
-/* .image-about{
-  height:50%;
-  margin-left:20%;
-} */
+.image-about{
+  height:50vh;
+}
 
-
-/* wip---------- */
-/* .image-about{
-  height:50%;
-  margin-top:20%;
-} */

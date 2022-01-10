@@ -15,9 +15,9 @@ class MainPage extends Component {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
   </div>
-  <div className="carousel-inner h-75 watchSize">
+  <div className="carousel-inner  watchSize">
 
-    <div className="carousel-item active h-75">
+    <div className="carousel-item active ">
       <img src={watchImage} className="d-block w-100 img-fluid watchImage" alt="..."/>
       <div className="carousel-caption d-none d-md-block subcaps">
         <h5>Kairos</h5>
@@ -25,7 +25,7 @@ class MainPage extends Component {
       </div>
     </div>
 
-    <div className="carousel-item h-75">
+    <div className="carousel-item ">
       <img src={watchImage2} className="d-block w-100 img-fluid watchImage" alt="..."/>
       <div className="carousel-caption d-none d-md-block mt-4">
         

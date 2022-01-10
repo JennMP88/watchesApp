@@ -1,6 +1,8 @@
 .watchSize{    
  opacity: 0.9;
+ height:60vh;
 }
+
 
 
 h5{
@@ -20,4 +22,7 @@ font-weight:bolder;} */
   color:red;
   text-transform: uppercase;
   letter-spacing: .2em;
+
+  position:absolute;
+  top:250px;
 }

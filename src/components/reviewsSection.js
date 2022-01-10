@@ -8,7 +8,7 @@ class ReviewsSection extends Component {
       }
  }
   render(){
-    return (<> 
+    return (<>     
     <div class="container">
     <div class="row align-items-start">
    
