@@ -19,5 +19,9 @@ h5{
   letter-spacing: .2em;
   position:absolute;
   top:220px;
-  height:20vh;
+  height:25vh;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color:red;
 }

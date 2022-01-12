@@ -8,12 +8,6 @@ import Watches from "./components/watches";
 import ReviewsSection from './components/reviewsSection';
 import "./styles/app.css";
 
-// import {
-//   BrowserRouter,
-//   Routes, // instead of "Switch"
-//   Route,
-// } from "react-router-dom";
-
 
 class App extends Component{
 
@@ -24,22 +18,12 @@ class App extends Component{
   render(){
     return (
       <>
-        <Navbar/>
+        {/* <Navbar/>
         <MainPage/>
         <Benefits/>
-        {/* <Overview/> */}
         <About/>
-        {/* <Watches/> */}
-        <ReviewsSection/>
-        
-  {/* < BrowserRouter>
-
-    <Routes>
-      <Route path="/navbar" element={<Navbar />} />
-      <Route path="/mainpage" element={<MainPage />} />
-    </Routes>
-  </ BrowserRouter> */}
-              
+        <ReviewsSection/> */}
+         <Watches/>     
       </>
     )
   }

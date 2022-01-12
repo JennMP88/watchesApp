@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/navbar.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -26,13 +26,13 @@ const Navbar = () => {
       </nav>
 
       <ul class="nav subNav">
-        {/* <Link to="../">  */}
+
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">
             About
           </a>
         </li>
-        {/* </Link> */}
+
         <li class="nav-item">
           <a class="nav-link" href="#">
             Watches
@@ -77,24 +77,9 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* 
-
+   
     
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
-</ul> */}
-      {/* </div> */}
+ 
     </>
   );
 };
