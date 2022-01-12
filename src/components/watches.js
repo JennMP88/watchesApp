@@ -13,10 +13,30 @@ class Watches extends Component {
       orgTableData:[],
       perPage:10,
       currentPage:0,
-      // persons:[],
     }
+    this.handlePageClick=this.handlePageClick.bind(this);
   }
 
+handlePageClick=(e)=>{
+  const selectedPage=e.selected;
+  const offset=selectedPage * this.state.perPage;
+
+  this.setState({
+    currentPage:selectedPage,
+    offset:offset
+  }, ()=>{
+    this.loadMoreData()
+  });
+}
+
+loadMoreData(){
+  const data=this.state.orgTableData;
+  const slice = data.slice(this.state.offset, this.state.offset + this.state.perPage)
+  this.setState({
+    pageCount: Math.ceil(data.length / this.state.perPage),
+    tableData:slice
+  })
+}
 
     componentDidMount() {
       this.getData();
@@ -67,15 +87,19 @@ class Watches extends Component {
       </table>
 
       <ReactPaginate
-         previousLabel="< previous"
+         previousLabel={"prev"}
+        nextLabel={"next"}
         breakLabel="..."
-        nextLabel="next >"
-        onPageChange={handlePageClick}
+        breakClassName={"break-me"}
+        pageCount={this.state.pageCount}
+        marginPageDisplayed={2}
         pageRangeDisplayed={5}
-        pageCount={pageCount}
-     
-        renderOnZeroPageCount={null}
-      />
+        onPageChange={this.handlePageClick}
+       containerClassName={"pagination"}
+       subContainerClassName={"pages pagianation"}
+        activeClassName={"active"}/>
+    
+ 
       
       </>
     );
