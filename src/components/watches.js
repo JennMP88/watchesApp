@@ -87,7 +87,7 @@ loadMoreData(){
       </table>
 
       <ReactPaginate
-         previousLabel={"prev"}
+        previousLabel={"prev"}
         nextLabel={"next"}
         breakLabel="..."
         breakClassName={"break-me"}
@@ -95,8 +95,8 @@ loadMoreData(){
         marginPageDisplayed={2}
         pageRangeDisplayed={5}
         onPageChange={this.handlePageClick}
-       containerClassName={"pagination"}
-       subContainerClassName={"pages pagianation"}
+        containerClassName={"pagination"}
+        subContainerClassName={"pages pagianation"}
         activeClassName={"active"}/>
     
  
