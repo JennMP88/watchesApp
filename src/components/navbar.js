@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg pe-3 ps-3">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#" >
             Kairos
           </a>
           <form className="d-flex">
@@ -25,19 +25,20 @@ const Navbar = () => {
         </div>
       </nav>
 
+ 
       <ul class="nav subNav">
-        {/* <Link to="../">  */}
+ 
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">
+          <a class="nav-link" aria-current="page" href="#about-container" >
             About
           </a>
         </li>
-        {/* </Link> */}
+        
+      
         <li class="nav-item">
-          <a class="nav-link" href="#">
-            Watches
-          </a>
+        <Link to="/watches">Watches</Link>
         </li>
+   
 
         <li className="nav-item dropdown">
           <a
