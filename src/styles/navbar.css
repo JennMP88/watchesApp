@@ -71,6 +71,9 @@
   .dropdown-toggle::after{
     margin-top:.5em;
   }
+  .dropdown-menu{
+    width:100%;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
