@@ -21,7 +21,7 @@ class ReviewsSection extends Component {
             <div class="card-body">
               <blockquote class="blockquote mb-0">
                 <p>{review.review}</p>
-                <footer class="blockquote-footer">{review.name}</footer>
+                <footer class="blockquote-footer d-flex justify-content-end">{review.name}</footer>
               </blockquote>
             </div>
           </div> 

@@ -5,15 +5,25 @@ const Footer=()=>{
   return (
     <>
     
-
-     <div class="footer-section px-4">    
-     <hr/>
+    
+    <div class="container-fluid footer-section">
+    <hr/>
+    <div class="row align-items-start">
+    {/* <div class="col"> */}
        {/* logo */}
-      <img src="" alt="kairoslogo"/>
-     </div>
+       <img src="" alt="kairoslogo"/>
+    {/* </div> */}
+
+    </div>
+    </div>
+    
+
+    
+      
+   
 
      <div>
-
+            
      </div>
     </>
   )
