@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import benefits from "../styles/benefits.css"
 
 class Benefits extends Component {
  constructor(props) {
@@ -8,7 +9,7 @@ class Benefits extends Component {
  }
   render(){
     return (<> 
-    <div class="container mt-5">
+    <div class="container mt-5 allbenefits">
   <div class="row align-items-start ">
     <div class="col">
     <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100" fill="currentColor" class="bi bi-watch" viewBox="0 0 16 16">
@@ -30,17 +31,17 @@ class Benefits extends Component {
   <div class="row align-items-center">
     <div class="col ">
     <div class="d-flex justify-content-center" style={{height:"100px"}}>
-             <p className="m-2" >Ten Year Warranty </p>
+             <p className="m-2 benefit-type" >Ten Year Warranty </p>
             </div>
     </div>
     <div class="col">
     <div class="d-flex justify-content-center " style={{height:"100px"}}>
-             <p className="m-2 ">Water Proof </p>
+             <p className="m-2 benefit-type">Water Proof </p>
             </div>
     </div>
-    <div class="col">
+    <div class="col last-col">
     <div class="d-flex justify-content-center" style={{height:"100px"}}>
-             <p className="m-2">Global Time Zones</p>
+             <p className="m-2 benefit-type">Global Time Zones</p>
             </div>
     </div>
   </div>

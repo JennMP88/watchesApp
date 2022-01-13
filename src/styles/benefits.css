@@ -1,0 +1,8 @@
+/* // Small devices Portrait */
+@media (max-width: 575.98px) { 
+
+.benefit-type{
+  font-size:12px;
+  padding-left:1em;
+ }
+}

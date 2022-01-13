@@ -12,3 +12,18 @@ h1{
   height:50vh;
 }
 
+/* // Small devices Portrait */
+@media (max-width: 575.98px) { 
+  .image-about{
+    display:none;
+  }
+  
+  .aboutourwatches{
+    width:80%;
+    margin-left:2em;
+    height:60vh;
+    overflow:scroll;
+  }
+  
+}
+
