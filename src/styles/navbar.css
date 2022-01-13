@@ -53,7 +53,6 @@
 
 /* // Small devices Portrait */
   @media (max-width: 575.98px) { 
-     /* Navbar */
   a.navbar-brand{
     margin:0px auto;
     font-size:42px;
@@ -65,6 +64,9 @@
     display: flex;
     justify-content:center;
     padding:.5em;
+  }
+  a.nav-link:hover{
+   background-color: rgba(245,245,220,.8);
   }
   .dropdown-toggle::after{
     margin-top:.5em;

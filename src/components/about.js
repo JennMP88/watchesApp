@@ -5,6 +5,7 @@ const aboutImage=require("../assets/moontashir-mandal-EXF8ntB83lM-unsplash.jpg")
 const About=()=>{
   return (
     <>
+     
       <div class="container" id="about-container">
         <div class="row mt-5">
 
@@ -24,6 +25,7 @@ const About=()=>{
 
         </div>
       </div>
+     
     </>
   )
 }

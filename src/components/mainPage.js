@@ -4,6 +4,7 @@ import Main from "../components/main.js"
 import Benefits from "../components/benefits.js"
 import About from "../components/about";
 import ReviewsSection from "../components/reviewsSection";
+import Footer from "./footer";
 
 class MainPage extends Component {
   state = {};
@@ -14,6 +15,7 @@ class MainPage extends Component {
           <Benefits/>
           <About/>
           <ReviewsSection />
+          <Footer />
 
 
       </>

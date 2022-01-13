@@ -1,11 +1,11 @@
+
 h1{
   color:#4E773A;
 }
 
 .aboutourwatches{
   box-shadow: 20px -16px rgba(0,0,0,.82);
-  border: 1px solid grey;
-  /* height: 10%; */
+  border: 1px solid rgba(101, 213, 45, 0.5);
 }
 
 .image-about{
