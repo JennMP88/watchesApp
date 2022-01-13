@@ -24,7 +24,6 @@ const Navbar = () => {
           </form>
         </div>
       </nav>
-
  
       <ul class="nav subNav">
  
@@ -62,7 +61,7 @@ const Navbar = () => {
                 Another action
               </a>
             </li>
-            {/* <li><hr className="dropdown-divider"></li> */}
+           
             <li>
               <a className="dropdown-item" href="#">
                 Something else here
@@ -78,24 +77,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* 
-
-    
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
-</ul> */}
-      {/* </div> */}
+  
     </>
   );
 };

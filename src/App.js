@@ -11,7 +11,7 @@ import "./styles/app.css";
 import {
   Routes, // instead of "Switch"
   Route,
-  Router
+  BrowserRouter as Router
 } from "react-router-dom";
 
 class App extends Component {
@@ -25,15 +25,10 @@ class App extends Component {
           <Navbar />
 
           <Routes>
+          <Route path="/" element={<MainPage/>} />
+          <Route path="/watches" element={<Watches/>} />
+          {/* <Overview/> */}
 
-          <Route path="/" element={<MainPage />} />
-
-          
-            {/* <Benefits /> */}
-            {/* <Overview/> */}
-            {/* <About /> */}
-            {/* <Watches/> */}
-            {/* <ReviewsSection /> */}
           </Routes>
           
         </Router>
