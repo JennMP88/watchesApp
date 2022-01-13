@@ -25,7 +25,7 @@ class App extends Component {
           <Navbar />
 
           <Routes>
-          <Route path="/" element={<MainPage/>} />
+          <Route path="/" element={<MainPage/>}/>
           <Route path="/watches" element={<Watches/>} />
           {/* <Overview/> */}
 

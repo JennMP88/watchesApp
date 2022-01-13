@@ -1,16 +1,14 @@
 .navbar.navbar-expand-lg{
   background-color:#0b0707;
 }
-.navbar-brand{
-  /* color:#DDD74C; */
+
+.navbar-brand{ 
   color:white;
   font-size:32px;
   letter-spacing:.20em;
 }
 
-a.nav-link:hover{
-  /* color: #22221b; */
-  /* color:#4E773A; */
+.nav-link:hover{
   color:black;
 }
 
@@ -18,12 +16,16 @@ a.nav-link:hover{
   background-color:white;
 }
 
-a.nav-link{
-  /* color:#AFA4A4; */
+.nav-link{
+  padding-top:6px;
+  text-decoration: none;
   color:black;
-  /* color:blue; */
   font-size:22px;
   letter-spacing:.20em;
+}
+
+.nav-link:visited{
+  color:black;
 }
 
 .subNav{
@@ -31,7 +33,6 @@ a.nav-link{
 }
 
 .navbar-brand:hover{
-  /* color:#DDD74C; */
   color:white;
 }
 
@@ -40,16 +41,8 @@ a.nav-link{
 }
 
 .btn{
-  /* background-color:#DDD74C ; */
   background-color:#4E773A ;
   color:black;
 }
 
-/* .btn:hover{
-  color:#AFA4A4 ;
-} */
-
-
-/* 4E773A
-DDD74C */
 
