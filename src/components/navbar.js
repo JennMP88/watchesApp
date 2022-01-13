@@ -56,7 +56,7 @@ const Navbar = () => {
      
             <li>
               <a className="dropdown-item" href="#">
-                M-Th  9am-6:00pm
+                M -Th  9am-6:00pm
               </a>
             </li>
             <hr/>
@@ -80,8 +80,6 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-
-  
     </>
   );
 };
