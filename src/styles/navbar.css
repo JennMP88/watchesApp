@@ -45,4 +45,6 @@
   color:black;
 }
 
-
+.dropdown-item{
+  font-weight:bold;
+}

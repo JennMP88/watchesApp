@@ -11,7 +11,7 @@ const Navbar = () => {
           <a className="navbar-brand" href="#" >
             Kairos
           </a>
-          <form className="d-flex">
+          {/* <form className="d-flex">
             <input
               className="form-control me-2"
               type="search"
@@ -21,7 +21,7 @@ const Navbar = () => {
             <button className="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
         </div>
       </nav>
  
@@ -38,7 +38,7 @@ const Navbar = () => {
         <Link to="/watches"  className="nav-link">Watches</Link>
         </li>
    
-
+       
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
@@ -48,24 +48,28 @@ const Navbar = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            hours
+            Hours
           </a>
+
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+     
             <li>
               <a className="dropdown-item" href="#">
-                Action
+                M-Th  9am-6:00pm
               </a>
             </li>
+            <hr/>
             <li>
               <a className="dropdown-item" href="#">
-                Another action
+                F - Sat 10am-6:00pm
               </a>
             </li>
-           
+            <hr/>
             <li>
               <a className="dropdown-item" href="#">
-                Something else here
-              </a>
+                Sundays- closed
+              </a> 
             </li>
           </ul>
         </li>
