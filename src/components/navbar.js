@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/navbar.css";
 import { Link } from 'react-router-dom';
+// const kairosLogo=require("../assets/kairosLogo.png");
 
 const Navbar = () => {
   return (

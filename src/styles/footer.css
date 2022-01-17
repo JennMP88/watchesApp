@@ -1,3 +1,33 @@
 .footer-section{
   background-color: black;
+  line-height:2em;
+  padding-top:2em;
+}
+
+.imagelogo{
+  height:4em;
+  width:auto;
+  margin-bottom: 1em;
+}
+
+.smallDescription{
+  font-size:12px;
+  line-height:3em;
+}
+
+.small{
+  font-size:12px;
+  line-height:2em;
+}
+.horizontal{
+  color:grey;
+}
+
+li{
+  list-style-type: none;
+}
+
+.icon{
+  display: inline-block;
+  padding-right: 1em;
 }
