@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div class="container-fluid footer-section">
         <div class="row horizontal">
-          <div class="col-2">
+          <div class="col-2 kairosWatch">
             {/* <img src={kairosLogo} alt="kairoslogo" class="imagelogo"/> */}
           </div>
 
@@ -16,22 +16,24 @@ const Footer = () => {
               <p>Hours</p>
             </div>
 
+            <div class="container hoursOperations">
             <div class="row">
-              <div class="col-4">
+              <div class="col-2 days">
                 <p class="small">Monday-Thursday</p>
                 <p class="small">Friday-Saturday</p>
                 <p class="small">Sunday</p>
               </div>
 
-              <div class="col-4">
+              <div class="col-2 times">
                 <p class="small">9am-6pm</p>
                 <p class="small">10am-6pm</p>
                 <p class="small">Closed</p>
               </div>
             </div>
           </div>
+          </div>
 
-          <div class="col-2">
+          <div class="col-6">
             <div class="row">
               <ul>
                 <li>About</li>

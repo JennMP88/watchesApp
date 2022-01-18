@@ -19,6 +19,14 @@
   font-size:12px;
   line-height:2em;
 }
+.thisone2{
+  width:100%;
+}
+.days, .times{
+  width:50%;
+}
+
+
 .horizontal{
   color:grey;
 }
@@ -30,4 +38,39 @@ li{
 .icon{
   display: inline-block;
   padding-right: 1em;
+}
+
+/* // Small devices Portrait */
+@media (max-width: 575.98px) {
+  .kairosWatch{
+    display:none;
+  }
+  
+  .hoursOperations{
+   width:100%;
+   padding: 0px;
+   
+  }
+
+  
+  .days, .times{
+    width:40%;
+  }
+
+   .times{
+    padding-left:1rem;
+   }
+
+  .small{
+    font-size:10px;
+  }
+
+  /* about */
+  .smallDescription{
+    padding-top: 1.5em;
+    line-height:2em;
+    font-size:10px;
+  }
+
+
 }

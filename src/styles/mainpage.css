@@ -1,10 +1,9 @@
 .watchSize{    
- opacity: 0.9;
- height:60vh;
+ /* background-color:rgba(0,0,20,.8); */
+ height:85vh;
 }
 
 h5{
-
   font-weight: bolder;
   font-size:3rem;
 }
@@ -14,10 +13,18 @@ h5{
 
 .subcaps{
   background-color: rgba(255,255,255,.7);
-  color:red;
+  background-color:rgba(0,0,20,.6);
+  color:rgb(216, 17, 17);
   text-transform: uppercase;
   letter-spacing: .2em;
   position:absolute;
-  top:220px;
+  top:280px;
   height:20vh;
+}
+
+/* // Small devices Portrait */
+@media (max-width: 575.98px) {
+  .watchSize{
+    height:auto;
+  }
 }
