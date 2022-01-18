@@ -6,9 +6,9 @@ const Footer = () => {
     <>
       <div class="container-fluid footer-section">
         <div class="row horizontal">
-          <div class="col-2 kairosWatch">
-            {/* <img src={kairosLogo} alt="kairoslogo" class="imagelogo"/> */}
-          </div>
+          {/* <div class="col-2 kairosWatch">
+            <img src={kairosLogo} alt="kairoslogo" class="imagelogo"/>
+          </div> */}
 
 
           <div class="col-4">
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           </div>
 
-          <div class="col-6">
+          <div class="col-4 about">
             <div class="row">
               <ul>
                 <li>About</li>
@@ -91,7 +91,10 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div class="col-4">.col-6 .</div> */}
+          <div class="col-2 kairosWatch">
+            <img src={kairosLogo} alt="kairoslogo" class="imagelogo"/>
+          </div>
+
         </div>
       </div>
     </>

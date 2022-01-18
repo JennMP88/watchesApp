@@ -2,12 +2,15 @@
   background-color: black;
   line-height:2em;
   padding-top:2em;
+  padding-left:2em;
 }
 
 .imagelogo{
-  height:4em;
-  width:auto;
-  margin-bottom: 1em;
+  float:left;
+}
+
+.hoursOperations{
+  padding-left:0px;
 }
 
 .smallDescription{
@@ -19,9 +22,7 @@
   font-size:12px;
   line-height:2em;
 }
-.thisone2{
-  width:100%;
-}
+
 .days, .times{
   width:50%;
 }
@@ -42,6 +43,10 @@ li{
 
 /* // Small devices Portrait */
 @media (max-width: 575.98px) {
+  /* .horizontal{
+    padding-left:.5rem;
+  } */
+
   .kairosWatch{
     display:none;
   }
@@ -49,18 +54,27 @@ li{
   .hoursOperations{
    width:100%;
    padding: 0px;
+   
   }
 
   .small{
     font-size:10px;
+    line-height:1.5em;
   }
 
   /* about */
+  .about{
+    margin-left:2em;
+  }
   .smallDescription{
     padding-top: 1.5em;
-    line-height:2em;
+    line-height:1.5em;
     font-size:10px;
+
   }
 
+  .icon{
+    padding-right:.5em;
+  }
 
 }
