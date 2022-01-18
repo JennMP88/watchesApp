@@ -49,17 +49,7 @@ li{
   .hoursOperations{
    width:100%;
    padding: 0px;
-   
   }
-
-  
-  .days, .times{
-    width:40%;
-  }
-
-   .times{
-    padding-left:1rem;
-   }
 
   .small{
     font-size:10px;
