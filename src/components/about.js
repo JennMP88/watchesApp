@@ -1,8 +1,9 @@
-import {React} from "react";
+import React from "react";
 import "../styles/about.css";
 const aboutImage=require("../assets/moontashir-mandal-EXF8ntB83lM-unsplash.jpg")
 
 const About=()=>{
+  
   return (
     <>
      

@@ -12,9 +12,10 @@ h5{
 }
 
 .subcaps{
-  background-color: rgba(255,255,255,.7);
-  background-color:rgba(0,0,20,.6);
-  color:rgb(216, 17, 17);
+  background-color: rgba(12,15,28,.6);
+  /* background-color: rgba(255,255,255,.7); */
+  /* background-color:rgba(0,0,20,.6); */
+  /* color:rgb(216, 17, 17); */
   text-transform: uppercase;
   letter-spacing: .2em;
   position:absolute;

@@ -17,7 +17,7 @@ class ReviewsSection extends Component {
           reviews.map((review,i)=>{
            return ( 
             <div let key={i} class="col col-4 p-2 review">
-            <div  class="card">
+            <div  class="card mb-5">
             <div class="card-body">
               <blockquote class="blockquote mb-0">
                 <p>{review.review}</p>

@@ -29,9 +29,11 @@ const Navbar = () => {
       <ul class="nav subNav">
  
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#about-container" >
-            About
-          </a>
+          
+        <Link to={{pathname:"/", hash:"#about-container"}}  className="nav-link">About</Link>
+          {/* <a class="nav-link" aria-current="page" href="#about-container" > */}
+            {/* About */}
+          {/* </a> */}
         </li>
         
       
